@@ -1,0 +1,45 @@
+diff --git a/examples/expected_output/tables.html b/examples/output/tables.html
+index 299de8a..695972b 100644
+--- a/examples/expected_output/tables.html
++++ b/examples/output/tables.html
+@@ -9,26 +9,26 @@
+ <body>
+     <table>
+         <tr>
+-            <th>Tables</th>
+-            <th>Are</th>
+-            <th>Cool</th>
++            <th>Tables        </th>
++            <th>Are           </th>
++            <th>Cool  </th>
+         </tr>
+         <tr>
+-            <td>here</td>
+-            <td>is</td>
+-            <td>data</td>
++            <td>here          </td>
++            <td>is            </td>
++            <td>data  </td>
+         </tr>
+         <tr>
+-            <td>here</td>
+-            <td>is</td>
+-            <td>data</td>
++            <td>here          </td>
++            <td>is            </td>
++            <td>data  </td>
+         </tr>
+         <tr>
+-            <td>here</td>
+-            <td>is also</td>
+-            <td><strong>bolded data</strong></td>
++            <td>here </td>
++            <td>is also </td>
++            <td><strong>bolded data</strong> </td>
+         </tr>
+     </table>
+ </body>
+ 
+-</html>
+\ No newline at end of file
++</html>
