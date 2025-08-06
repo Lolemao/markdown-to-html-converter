@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML Converter</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Markdown to HTML Converter</h1>
+    </header>
+
+    <main>
+        <label><input type="checkbox" name="checkbox" checked="">Render HTML</label>
+        
+        <!-- <button id="save-button">Save HTML</button>
+        <label>Add Title:<input id = "add-title" type = "text"/></label> -->
+        <div id="container" style="display: flex; box-sizing: border-box;">
+            <section id="input-section" style="flex: 1; width: 100%; box-sizing: border-box;">
+                <h2 style="flex: 1; width: 100%">Enter Markdown:</h2>
+                <textarea id="markdown-input" placeholder="Enter your Markdown here..."></textarea>
+            </section>
+            <section id="output-section" style="flex: 1; box-sizing: border-box;">
+                <h2>HTML Output:</h2>
+                <textarea id="html-output" style="width: 100%; white-space: pre" readonly=""></textarea>
+            </section>
+        </div>
+        <div id="render-container" style="display: flex; width: 100%;">
+            <section id="render-section" style="flex: 1;">
+                <h2>HTML Render</h2>
+                <div id="html-render" style="white-space: pre">
+            </div></section>
+        </div>
+    </main>
+    <footer>
+        <p>Developed by Tho Jun QUan</p>
+    </footer>
+    <script src="./src/main.ts" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: -15px
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    /* Ensure the sections are laid out horizontally */
+    justify-content: start;
+}
+
+textarea {
+    flex: 1;
+    width: 100%;
+    /* Take up available space equally */
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#input-section,
+#output-section {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+#html-output {
+    margin: 0;
+    flex: 1;
+    /* Take up available space equally */
+    /* Add some space between input and output */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 100px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
